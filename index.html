@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Encriptador</h1>
+  <h3 class="reglas">Reglas:</h3>
+  <h3 class="reglas">El mensaje debe estar escrito en letras minusculas.</h3>
+  <h3 class="reglas">El mensaje no debe contener acentos.</h3>
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto"><h2>Mensaje</h2></label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="submit" value="copiar" id="btn-copy">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensaje encriptado:</h2>
+      <input class="text-input" type="text" id="segundo-campo" placeholder = "Ingrese texto aqui"></input>
+      <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+      <input class="btn" type="submit" value="copiar" id="btn-copy2">
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
